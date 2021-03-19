@@ -1,6 +1,6 @@
 import React from "react";
-import axios from "axios";
 
-export default function Weather() {
+
+export default function Weather(props) {
     return <h2>Hello Moon</h2>
 }

@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Weather from './weather';
 
@@ -8,8 +7,6 @@ function App() {
       <header className="App-header">
         <h1> Hello World 555 </h1>
         <Weather/>
-        
-        
       </header>
     </div>
   );

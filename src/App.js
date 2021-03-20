@@ -1,15 +1,20 @@
 import './App.css';
-import Weather from './weather';
+import Search from './Search';
+import City from './City';
+import Weather from './Weather';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1> Hello World 555 </h1>
+      
+        <Search/>
+        <City/>
         <Weather/>
-      </header>
+      
     </div>
   );
+
+
 }
 
 export default App;

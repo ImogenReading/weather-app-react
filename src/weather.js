@@ -6,11 +6,7 @@ export default function Weather() {
     <div>
       {" "}
       <h3 id="weather-description">Sunshine and light wind </h3>
-      <img
-        src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
-        id="weather-icon"
-        alt="Sun"
-      />
+      
       <br />
       <span className="temperature" id="temperature">
         10

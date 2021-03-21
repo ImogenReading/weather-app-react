@@ -1,6 +1,7 @@
 import './App.css';
 import Search from './Search';
 import City from './City';
+import Weather from './Weather';
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       
         <Search/>   
         <City/>
+        <Weather/>
   
     </div>
   );

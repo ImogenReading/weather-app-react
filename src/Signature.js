@@ -4,8 +4,10 @@ export default function Signature() {
 
   return (
   <div>
-  <span> Coded by Imogen Reading </span>
-  <span href="https://github.com/ImogenReading/weather-app-react"> Open Source Code </span>
+      <p>
+          <a href="https://github.com/ImogenReading/weather-app-react" class="openSource" target="blank"> Open Source Code </a>
+      by Imogen Reading
+      </p>
     </div>
    );
 }

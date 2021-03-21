@@ -6,7 +6,12 @@ export default function Weather() {
     <div>
     
       <h3 id="weather-description">Sunshine and light wind </h3>
-      
+
+      <h1>
+          🌕
+      </h1>
+    
+
       <br />
       <span className="temperature" id="temperature">
         10

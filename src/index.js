@@ -8,7 +8,18 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
     <App />
+
+    <div>
+      <p className="signature">
+          <a href="https://github.com/ImogenReading/weather-app-react" className="openSource" target="blank"> Open Source Code </a>
+      by Imogen Reading
+      </p>
+    </div>
+    
   </React.StrictMode>,
+
+  
+
   document.getElementById('root')
 );
 

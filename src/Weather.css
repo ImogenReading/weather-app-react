@@ -29,3 +29,18 @@
 form {
   display: inline;
 }
+
+.city {
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.date {
+    color: grey;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+#weather-description {
+    font-size: 20px;
+    margin-bottom: 0;
+}

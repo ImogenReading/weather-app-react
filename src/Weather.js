@@ -43,9 +43,9 @@ export default function Weather(prop) {
 
       <button id="current-location-button">Current Location</button>
 
-      <h5> <FormattedDate date={weatherData.date} /> </h5>
+      <h2 className="city"> {weatherData.city} </h2>
 
-      <h2> {weatherData.city} </h2>
+      <h5 className="date"> <FormattedDate date={weatherData.date} /> </h5>
     
       <h3 className="text-capitalize" id="weather-description"> {weatherData.description} </h3>
 
@@ -73,9 +73,9 @@ export default function Weather(prop) {
       <span className="humidity" id="humidity">
         Humidity: {weatherData.humidity}%
       </span>
-      <span id="divider">|</span>
+      <span id="divider"> | </span>
       <span className="wind" id="wind">
-        Wind: {weatherData.wind}
+        Wind: {Math.round(weatherData.wind)}km/h
       </span>
       <br />
     </div>

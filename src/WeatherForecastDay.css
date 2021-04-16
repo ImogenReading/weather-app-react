@@ -1,0 +1,13 @@
+.WeatherForecast-temperature-min {
+    font-size: 13px;
+    color: grey;
+}
+
+.WeatherForecast-temperature-max {
+    font-size: 13px;
+    color: grey;
+}
+
+.WeatherForecast-day {
+    margin-bottom: 10px;
+}
